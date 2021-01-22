@@ -9,5 +9,6 @@ function update() {
 
 function increment() {
 	money+=1;
-	update();
+	document.getElementByID("money").innerHTML = money;
+	//update();
 }
